@@ -1,0 +1,18 @@
+<html>
+<head>
+<script type="text/javascript" src="jqueryソースファイルパス"></script>
+</head>
+<body>
+<script>
+function check(){
+  val1 = $("input[name='radio']:checked").val();
+  alert(val1);
+}
+</script>
+
+<input type="radio" name="radio" value="1"> ラジオボタン1<br>
+<input type="radio" name="radio" value="2"> ラジオボタン2<br>
+<input type="button" onclick="check();" value="調べる"><br>
+
+</body>
+</html>
